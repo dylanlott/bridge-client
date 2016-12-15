@@ -13,5 +13,21 @@
     "bridge"
   ],
   "author": "Dylan lott",
-  "license": "AGPL-3.0"
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "async": "^2.1.4",
+    "buffer": "^5.0.2",
+    "crypto": "0.0.3",
+    "request": "^2.79.0"
+  },
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.1",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^1.9.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.8.0"
+  }
 }
