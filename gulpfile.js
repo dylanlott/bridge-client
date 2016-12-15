@@ -9,7 +9,9 @@ var babel = require('babelify');
 
 function compile(watch) {
   var bundler = watchify(browserify('./lib/index.js', { debug: true })
-    .transform(babel));
+    .transform(babel.configure({
+      presets: ["es2015"]
+    })));
 
   function rebundle() {
     bundler.bundle()
